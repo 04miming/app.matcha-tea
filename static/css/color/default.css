@@ -1,0 +1,46 @@
+::selection {
+  background-color:#556B2F;
+  color: #fff;
+}
+::-moz-selection {
+  background-color:#556B2F;
+  color: #fff;
+}
+
+a:hover {
+  color:#556B2F;
+}
+
+a,
+.theme-color,
+.mm-column li.mm-header > a,
+.mm-column li:not(.mm-header) a:hover,
+.btn-t-white:hover,
+.btn-white {
+  color:#556B2F;
+}
+
+
+.theme-before:before,
+.theme-after:after,
+.btn-theme,
+.btn-white:hover,
+.theme-hover:hover,
+.owl-nav > div,
+.theme-bg {
+  background-image: linear-gradient(to right, #006400, #556B2F);
+}
+.btn-theme:hover{
+  background-image: linear-gradient(to right, #556B2F, #556B2F);
+}
+
+.price-table-01.active,
+.border-color {
+  border-color: #556B2F !important;
+} 
+
+.theme-color-g {
+  background: linear-gradient(to right, #556B2F, #556B2F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
